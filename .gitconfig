@@ -1,0 +1,7 @@
+[user]
+	name = Vitali Voinski
+	email = 18062353+voinskiv@users.noreply.github.com
+[push]
+	autoSetupRemote = true
+[core]
+	editor = code --wait
