@@ -23,3 +23,5 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/in
 
 # Install Homebrew packages
 brew bundle install
+
+echo "Done"
