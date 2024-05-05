@@ -1,6 +1,6 @@
 #!/bin/bash
 #
-# Install config, Homebrew packages and set settings.
+# Install config, Homebrew and packages and set settings.
 
 config() {
   git --git-dir="${HOME}"/.config/ --work-tree="${HOME}" "$@"
