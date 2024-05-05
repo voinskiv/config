@@ -1,3 +1,3 @@
 config() {
-  git --git-dir="$HOME"/.config/ --work-tree="$HOME" "$@"
+  git --git-dir="${HOME}"/.config/ --work-tree="${HOME}" "$@"
 }
