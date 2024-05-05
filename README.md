@@ -1,4 +1,4 @@
-# config
+# Config
 To get started, execute the following:
 
 ```
