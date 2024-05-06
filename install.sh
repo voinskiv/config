@@ -18,5 +18,3 @@ brew bundle install
 
 source ~/.bash_profile
 source ~/.macos
-
-echo "Done"
