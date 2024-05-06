@@ -13,7 +13,6 @@ config config --local status.showUntrackedFiles no
 chflags hidden "$(config ls-files)"
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-
 brew bundle install
 
 source ~/.bash_profile
