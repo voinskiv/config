@@ -10,7 +10,7 @@ git clone --bare https://github.com/voinskiv/config.git ~/.config
 config checkout
 config config --local status.showUntrackedFiles no
 
-chflags hidden "$(config ls-files)"
+chflags hidden $(config ls-files)
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
