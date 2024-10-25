@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 #
 # Install config, Homebrew with packages and set settings.
 
@@ -10,11 +10,11 @@ git clone --bare https://github.com/voinskiv/config.git ~/.config
 config checkout
 config config --local status.showUntrackedFiles no
 
-chflags hidden $(config ls-files)
+config ls-files | xargs chflags hidden
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
 brew bundle install
 
-source ~/.bash_profile
+source ~/.zshrc
 source ~/.macos
